@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5E5F6C">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/roomTopBar"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="1dp"
+        android:background="#444444"
+        android:backgroundTint="#444444"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="39dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/Transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_keyboard_arrow_left_white_18dp" />
+
+        <TextView
+            android:id="@+id/roomNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name Of Room"
+            android:textColor="#FDFCFC"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.478" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/navGrid"
+        android:layout_width="409dp"
+        android:layout_height="56dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageButton
+            android:id="@+id/calendarButtton"
+            android:layout_width="136dp"
+            android:layout_height="fill_parent"
+            android:background="@color/Transparent"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/baseline_date_range_black_18dp"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="136dp"
+            android:layout_height="fill_parent"
+            android:background="@color/Transparent"
+            app:layout_column="3"
+            app:layout_row="0"
+            app:srcCompat="@drawable/baseline_account_circle_black_18dp" />
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="136dp"
+            android:layout_height="fill_parent"
+            android:background="@color/Transparent"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/baseline_home_black_18dp" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <ScrollView
+        android:id="@+id/roomScrollView"
+        android:layout_width="409dp"
+        android:layout_height="617dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/navGrid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomTopBar">
+
+        <LinearLayout
+            android:id="@+id/scrollLİnear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/assignment constranit"
+                android:layout_width="369dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/circle_corner"
+                android:backgroundTint="#6272A4"
+                android:textAlignment="center">
+
+                <TextView
+                    android:id="@+id/assignmentHeader"
+                    android:layout_width="325dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/circle_corner"
+                    android:backgroundTint="#4A5988"
+                    android:text="Assignment Header"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.131" />
+
+                <TextView
+                    android:id="@+id/assignmentInfo"
+                    android:layout_width="324dp"
+                    android:layout_height="82dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Pellentesque varius felis enim Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Pellentesque varius felis enim"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.461"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/assignmentHeader"
+                    app:layout_constraintVertical_bias="0.0" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
