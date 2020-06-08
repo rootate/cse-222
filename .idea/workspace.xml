@@ -6,28 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422306db-df47-465e-a12b-e18b61d1493c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/room_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+    <list default="true" id="422306db-df47-465e-a12b-e18b61d1493c" name="Default Changelist" comment="main view eklendi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/saview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/saview/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +132,14 @@
       <option name="presentableId" value="Default" />
       <updated>1591611877587</updated>
     </task>
+    <task id="LOCAL-00001" summary="main view eklendi">
+      <created>1591649505938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591649505971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,20 +159,24 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="600" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1739.939@0.0.1739.939" timestamp="1591623631998" />
-    <state x="2416" y="258" width="824" height="482" key="AndroidCreateResourceFileDialog" timestamp="1591643261824">
+    <state x="2463" y="312" width="824" height="482" key="AndroidCreateResourceDirectoryDialog" timestamp="1591649860419">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2463" y="312" width="824" height="482" key="AndroidCreateResourceDirectoryDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591649860419" />
+    <state x="2416" y="258" width="824" height="482" key="AndroidCreateResourceFileDialog" timestamp="1591649784036">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="449" y="224" key="AndroidCreateResourceFileDialog/0.0.1739.939@0.0.1739.939" timestamp="1591623578197" />
-    <state x="2416" y="258" width="824" height="482" key="AndroidCreateResourceFileDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591643261824" />
+    <state x="2416" y="258" width="824" height="482" key="AndroidCreateResourceFileDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591649784036" />
     <state x="2724" y="325" width="306" height="390" key="AndroidCreateXmlResourceDialog" timestamp="1591648936190">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="728" y="283" key="AndroidCreateXmlResourceDialog/0.0.1739.939@0.0.1739.939" timestamp="1591621196613" />
     <state x="2724" y="325" width="306" height="390" key="AndroidCreateXmlResourceDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591648936190" />
-    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2" timestamp="1591649504574">
+    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2" timestamp="1591650375837">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591649504574" />
+    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591650375837" />
     <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1591627738104">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -193,15 +185,19 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="22" y="116" key="SettingsEditor/0.0.1739.939@0.0.1739.939" timestamp="1591619461989" />
+    <state x="2475" y="288" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1591649557322">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="288" width="800" height="530" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591649557322" />
     <state x="2217" y="138" width="1325" height="804" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1591645201191">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="269" y="120" width="1200" height="699" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1739.939@0.0.1739.939" timestamp="1591612461426" />
     <state x="2217" y="138" width="1325" height="804" key="com.android.tools.idea.avdmanager.AvdListDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591645201191" />
-    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup" timestamp="1591649453257">
+    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup" timestamp="1591650358315">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="532" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1591619068586" />
-    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591649453257" />
+    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591650358315" />
   </component>
 </project>
