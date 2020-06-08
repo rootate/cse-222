@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -139,18 +139,18 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="600" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1739.939@0.0.1739.939" timestamp="1591623631998" />
-    <state x="449" y="224" key="AndroidCreateResourceFileDialog" timestamp="1591623578197">
+    <state x="449" y="224" key="AndroidCreateResourceFileDialog" timestamp="1591642929710">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="449" y="224" key="AndroidCreateResourceFileDialog/0.0.1739.939@0.0.1739.939" timestamp="1591623578197" />
+    <state x="449" y="224" key="AndroidCreateResourceFileDialog/0.0.1739.939@0.0.1739.939" timestamp="1591642929710" />
     <state x="728" y="283" key="AndroidCreateXmlResourceDialog" timestamp="1591621196613">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="728" y="283" key="AndroidCreateXmlResourceDialog/0.0.1739.939@0.0.1739.939" timestamp="1591621196613" />
-    <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1591627738104">
+    <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1591643248034">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="650" y="225" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1591627738104" />
+    <state x="650" y="225" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1591643248034" />
     <state x="22" y="116" key="SettingsEditor" timestamp="1591619461989">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -159,6 +159,10 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="269" y="120" width="1200" height="699" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1739.939@0.0.1739.939" timestamp="1591612461426" />
+    <state x="398" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1591640080924">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="398" y="275" key="com.intellij.ide.util.TipDialog/0.0.1739.939@0.0.1739.939" timestamp="1591640080924" />
     <state x="532" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1591619068586">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
