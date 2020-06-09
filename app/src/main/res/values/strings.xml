@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">SAView</string>
     <string name="join">join</string>
+    <string name="join">join</string>
+    <string name="create">create</string>
+    <string name="b">B</string>
+    <string name="b">B</string>
 </resources>

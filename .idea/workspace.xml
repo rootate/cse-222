@@ -6,8 +6,12 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422306db-df47-465e-a12b-e18b61d1493c" name="Default Changelist" comment="main view eklendi">
+    <list default="true" id="422306db-df47-465e-a12b-e18b61d1493c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/mainView.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1d28Ypu2tSfFaBbyI0SzTKC81XJ" />
   <component name="ProjectViewState">
@@ -139,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591649505971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main view eklendi">
+      <created>1591650376526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591650376526</updated>
+    </task>
+    <task id="LOCAL-00003" summary="main view eklendi">
+      <created>1591650583562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591650583562</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,15 +187,15 @@
     </state>
     <state x="449" y="224" key="AndroidCreateResourceFileDialog/0.0.1739.939@0.0.1739.939" timestamp="1591623578197" />
     <state x="2416" y="258" width="824" height="482" key="AndroidCreateResourceFileDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591649784036" />
-    <state x="2724" y="325" width="306" height="390" key="AndroidCreateXmlResourceDialog" timestamp="1591648936190">
+    <state x="2724" y="325" width="298" height="388" key="AndroidCreateXmlResourceDialog" timestamp="1591700202377">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="728" y="283" key="AndroidCreateXmlResourceDialog/0.0.1739.939@0.0.1739.939" timestamp="1591621196613" />
-    <state x="2724" y="325" width="306" height="390" key="AndroidCreateXmlResourceDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591648936190" />
-    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2" timestamp="1591650375837">
+    <state x="2724" y="325" width="298" height="388" key="AndroidCreateXmlResourceDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591700202377" />
+    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2" timestamp="1591650583414">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591650375837" />
+    <state x="2078" y="61" width="1594" height="984" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591650583414" />
     <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1591627738104">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
@@ -185,19 +204,31 @@
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="22" y="116" key="SettingsEditor/0.0.1739.939@0.0.1739.939" timestamp="1591619461989" />
-    <state x="2475" y="288" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1591649557322">
+    <state x="2475" y="288" width="800" height="530" key="Vcs.Push.Dialog.v2" timestamp="1591650602687">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="288" width="800" height="530" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591649557322" />
+    <state x="2475" y="288" width="800" height="530" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591650602687" />
     <state x="2217" y="138" width="1325" height="804" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1591645201191">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="269" y="120" width="1200" height="699" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1739.939@0.0.1739.939" timestamp="1591612461426" />
     <state x="2217" y="138" width="1325" height="804" key="com.android.tools.idea.avdmanager.AvdListDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591645201191" />
-    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup" timestamp="1591650538009">
+    <state x="2526" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1591699273809">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2526" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591699273809" />
+    <state x="2635" y="469" width="479" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591699406568">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2635" y="469" width="479" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591699406568" />
+    <state x="2631" y="331" width="498" height="443" key="git4idea.merge.GitMergeDialog" timestamp="1591650632586">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2631" y="331" width="498" height="443" key="git4idea.merge.GitMergeDialog/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591650632586" />
+    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup" timestamp="1591699281587">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="532" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1739.939@0.0.1739.939" timestamp="1591619068586" />
-    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591650538009" />
+    <state x="2507" y="230" width="742" height="780" key="search.everywhere.popup/1920.0.1920.1080/0.28.1920.1052@1920.0.1920.1080" timestamp="1591699281587" />
   </component>
 </project>
