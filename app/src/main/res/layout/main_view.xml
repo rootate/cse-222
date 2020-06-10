@@ -30,7 +30,7 @@
         android:backgroundTint="#0091EA"
         android:text="@string/join" />
 
-
+    //room scrolling
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
@@ -329,7 +329,7 @@
     </ScrollView>
 
     <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/navGrid"
+        android:id="@+id/nav-bar"
         android:layout_width="409dp"
         android:layout_height="56dp"
         android:layout_gravity="bottom"
@@ -347,7 +347,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/calendarButtton"
+                android:id="@+id/calendarButton"
                 android:layout_width="136dp"
                 android:layout_height="fill_parent"
                 android:background="@color/Transparent"

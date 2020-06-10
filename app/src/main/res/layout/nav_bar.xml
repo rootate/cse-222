@@ -7,10 +7,11 @@
     android:background="#5E5F6C">
 
     <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/navGrid"
+        android:id="@+id/nav-bar"
         android:layout_width="409dp"
         android:layout_height="56dp"
-        android:background="#FFFFFF"
+        android:layout_gravity="bottom"
+        android:background="#3C3D47"
         android:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,32 +19,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
 
-        <ImageButton
-            android:id="@+id/calendarButtton"
-            android:layout_width="136dp"
-            android:layout_height="fill_parent"
-            android:background="@color/Transparent"
-            app:layout_column="0"
-            app:layout_row="0"
-            app:srcCompat="@drawable/baseline_date_range_black_18dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/profileButton"
-            android:layout_width="136dp"
-            android:layout_height="fill_parent"
-            android:background="@color/Transparent"
-            app:layout_column="3"
-            app:layout_row="0"
-            app:srcCompat="@drawable/baseline_account_circle_black_18dp" />
+            <ImageButton
+                android:id="@+id/calendarButton"
+                android:layout_width="136dp"
+                android:layout_height="fill_parent"
+                android:background="@color/Transparent"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/baseline_date_range_black_18dp" />
 
-        <ImageButton
-            android:id="@+id/homeButton"
-            android:layout_width="136dp"
-            android:layout_height="fill_parent"
-            android:background="@color/Transparent"
-            app:layout_column="2"
-            app:layout_row="0"
-            app:srcCompat="@drawable/baseline_home_black_18dp" />
+            <ImageButton
+                android:id="@+id/homeButton"
+                android:layout_width="136dp"
+                android:layout_height="fill_parent"
+                android:background="@color/Transparent"
+                app:layout_column="2"
+                app:layout_row="0"
+                app:srcCompat="@drawable/baseline_home_black_18dp" />
+
+            <ImageButton
+                android:id="@+id/profileButton"
+                android:layout_width="136dp"
+                android:layout_height="fill_parent"
+                android:background="@color/Transparent"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/baseline_account_circle_black_18dp" />
+        </LinearLayout>
     </androidx.gridlayout.widget.GridLayout>
 
 
